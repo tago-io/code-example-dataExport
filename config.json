@@ -1,0 +1,21 @@
+{
+  "account_token": "Enter your account-token from TagoIO",
+
+  "device_filter": {
+    "amount": 10000,
+    "filter": {
+      "tags": [{ "key": "tag_key", "value": "tag_value"}]
+    }
+  },
+
+  "variable_filter": {
+    "variables": ["temperature", "humidity"],
+    "start_date": "",
+    "end_date": "",
+    "timezone": "America/New_York"
+  },
+
+  "csv_format": {
+    "date_time": "YYYY/MM/DD HH:mm:ss Z"
+  }
+}

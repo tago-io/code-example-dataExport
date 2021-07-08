@@ -1,0 +1,21 @@
+{
+  "account_token": "4b459957-6ca1-4458-b1d9-32529c8bda77",
+
+  "device_filter": {
+    "amount": 10000,
+    "filter": {
+      "tags": [{ "key": "device_type", "value": "gps_sensor"}]
+    }
+  },
+
+  "variable_filter": {
+    "variables": ["location"],
+    "start_date": "2021-05-01T00:00:03.193Z",
+    "end_date": "2021-05-30T24:00:03.193Z",
+    "timezone": "America/New_York"
+  },
+
+  "csv_format": {
+    "date_time": "MM/DD/YYYY HH:mm:ss"
+  }
+}

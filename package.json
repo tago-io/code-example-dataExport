@@ -1,0 +1,24 @@
+{
+  "name": "code-example-dataexport",
+  "version": "1.0.0",
+  "description": "Export all your device data to a local file",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tago-io/code-example-dataExport.git"
+  },
+  "author": "TagoIO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tago-io/code-example-dataExport/issues"
+  },
+  "homepage": "https://github.com/tago-io/code-example-dataExport#readme",
+  "dependencies": {
+    "@tago-io/sdk": "^10.3.7",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33"
+  }
+}
