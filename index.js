@@ -62,7 +62,7 @@ async function startExport() {
 
 /**
  * Get data from your device. Automatically add skip parameter and qty: 10000
- * @param device intance of TagoIO Device
+ * @param device instance of TagoIO Device
  */
 async function getDeviceData(device) {
   let data_list = [];
