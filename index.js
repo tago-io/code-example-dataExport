@@ -48,7 +48,7 @@ async function startExport() {
       // Add "" when value has comma on it.
       const value = data.value && String(data.value).includes(',') ? `"${data.value}"` : data.value;
 
-      // return the data in the CSV format based on the headers we defined at line 26.
+      // return the data in the CSV format based on the headers we defined at line 32.
       return [id, name, time, data.variable, value || "", data.unit || ""];
     });
     csv_string_file = csv_string_file.concat(csv_data);
