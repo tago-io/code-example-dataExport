@@ -7,7 +7,7 @@ By following all the steps in this article, you’ll end up with:
 * Code to run in your machine to get data from your devices;
 * An exported CSV file with your data.
 
-![image|690x151](upload://tJPALSZvOnEaWe53NCFoNJezHiu.png)
+![image](https://user-images.githubusercontent.com/5141631/125105407-ce9c0a80-e0b4-11eb-92f5-e9b5d3dba66b.png)
 
 # 1. Understanding the process
 You may have already noticed that this script needs to run outside of TagoIO. The reason for this is that we can't use an analysis here, as:
@@ -48,7 +48,7 @@ Once you have Node.JS and NPM installed on your machine, go ahead and download t
 The first step you need to complete is to configure the **config.json** file inside your folder. You should also have a **config_example.json** file if you want to use it as a reference.
 
 I copied the example and added comments below to help you with the settings:
-``` JSON
+``` javascript
 {
   // Setup your account token below. Create one by acessing your profile at https://admin.tago.io/account.
   "account_token": "Enter your account-token from TagoIO",
@@ -80,6 +80,6 @@ I copied the example and added comments below to help you with the settings:
 Now that everything is correctly setup, you just need to head back to your terminal and run **npm start**.
 
 Any errors, such as invalid token or invalid parameters, will pop up in your terminal for you to fix. If everything is correct, it should show up like this:
-![image|690x151](upload://tJPALSZvOnEaWe53NCFoNJezHiu.png)
+![image](https://user-images.githubusercontent.com/5141631/125105407-ce9c0a80-e0b4-11eb-92f5-e9b5d3dba66b.png)
 
 Feel free to ask any questions below if you need help.
